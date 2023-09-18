@@ -1,0 +1,122 @@
+body {
+  background-color: lightgreen;
+}
+
+
+
+
+.match-details {
+  height: 100%;
+}
+.team-logo {
+  margin-right: 1rem;
+  margin-left: 1rem;
+}
+.container {
+  background-color: white;
+  min-height: 100vh;
+  height: auto;
+  padding: 0 0 5px 0;
+}
+
+
+
+.home-page {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid #121111;
+  padding: 20px;
+}
+
+.video-container {
+  margin-bottom: 50px;
+}
+
+.scoreboard-container {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.table-container {
+  background-color: #f8f9fa;
+  border: 1px solid #dee2e6;
+  border-radius: 0.25rem;
+}
+
+.horizontal-slider {
+  display: grid;
+  grid-gap: 2%;
+  grid-auto-flow: column;
+  overflow-x: scroll;
+  scroll-snap-type: x proximity;
+}
+
+.horizontal-slider > li, .item {
+  scroll-snap-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 20px
+}
+
+ul {
+  list-style-type: none
+}
+
+.logo-vs-logo {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h5 {
+  text-align: center;
+}
+
+a .card {
+  background-color: #D0F0C0;
+}
+.score {
+  font-size: 2rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.score-card {
+  display: grid;
+  grid-template-columns: 5% 35% 5% 10% 5% 35% 5%;
+  text-align: center;
+  margin: 5%;
+  border: 2.5px solid black;
+  background-color: #D0F0C0;
+  padding: 1% 5%;
+  border-radius: 2vh;
+  transition: 0.5s;
+}
+
+.score-card:hover {
+  background-color: #023114;
+  padding: 3% 5%;
+}
+
+.score-card img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.search-team-card {
+  text-align: center;
+  margin: 5%;
+  border: 2.5px solid rgb(15, 74, 69);
+  background-color: #c0f0e7;
+  padding: 1% 5%;
+  border-radius: 2vh;
+  transition: 0.5s;
+}
+
+.score-team-card:hover {
+  background-color: rgb(15, 74, 69);
+  color: #c0f0e7;
+  padding: 3% 5%;
+}

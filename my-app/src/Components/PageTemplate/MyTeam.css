@@ -1,0 +1,32 @@
+.myteam-container {
+    padding: 50px 0;
+  }
+  
+  .team-name {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .team-logo {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+  }
+  
+  .myteam-stats {
+    background-color: #f8f9fa;
+    padding: 30px;
+    border-radius: 10px;
+  }
+  
+  .stat-label {
+    font-size: 18px;
+    margin-bottom: 5px;
+  }
+  
+  .stat-value {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  

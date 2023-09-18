@@ -1,0 +1,15 @@
+{
+    "users": [
+      {
+        "email": "user1@example.com",
+        "password": "password1",
+        "token": "mysecrettoken1"
+      },
+      {
+        "email": "user2@example.com",
+        "password": "password2",
+        "token": "mysecrettoken2"
+      }
+    ]
+  }
+  
